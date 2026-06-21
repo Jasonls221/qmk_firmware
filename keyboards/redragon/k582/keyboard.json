@@ -19,7 +19,7 @@
         "nkro": true,
         "rgb_matrix": true
     },
-    "debounce": 10,
+    "debounce": 3,
     "development_board": "sn32f240b_shared_matrix",
     "diode_direction": "ROW2COL",
     "matrix_pins": {
@@ -55,7 +55,7 @@
             "solid_splash": true,
             "riverflow": true
         },
-        "driver": "sn32f2xx",
+        "driver": "custom",
         "layout": [
             {"matrix": [0, 0], "flags": 4, "x": 0, "y": 0},
 
