@@ -34,6 +34,9 @@
 #undef DYNAMIC_KEYMAP_LAYER_COUNT
 #define DYNAMIC_KEYMAP_LAYER_COUNT 2
 
+/* Increase PWM */
+#define RGB_MATRIX_SPD_STEP 128
+
 /* Stable branch RGB driver compatibility shims */
 #define LED_MATRIX_ROWS MATRIX_ROWS
 #define LED_MATRIX_ROW_CHANNELS 3
