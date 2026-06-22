@@ -318,6 +318,7 @@ void update_pwm_channels(PWMDriver *pwmp) {
     }
 }
 void rgb_callback(PWMDriver *pwmp) {
+    enable_pwm = false;
     // Disable the interrupt
     pwmDisablePeriodicNotification(pwmp);
     // Advance to the next LED RGB channel
